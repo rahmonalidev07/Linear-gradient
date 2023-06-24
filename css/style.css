@@ -1,0 +1,29 @@
+body {
+  background: linear-gradient(to right, #ff9263, #f01212);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+input[type="color"],
+input[type="range"] {
+  margin: 8px;
+  width: 100px;
+  height: 70px;
+}
+h2 {
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.wrapper {
+  display: flex;
+  margin-left: 3.5rem;
+}
+.wrapper-blog {
+  box-shadow: -1px -1px 10px 2px lightblue;
+  width: 360px;
+  text-align: center;
+  justify-content: center;
+}
